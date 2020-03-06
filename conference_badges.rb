@@ -41,7 +41,6 @@ end
 # batch_badge_creator(x)
 # end
 
-# puts printer(["a","b","c"])
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |badge|
@@ -53,7 +52,7 @@ def printer(attendees)
   end
 end
 
-
+puts printer(["a","b","c"])
   # end
   # puts speakers
   # puts speakers.length+1
